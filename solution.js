@@ -58,10 +58,3 @@ console.log(
     ? "same"
     : "not the same"
 );
-
-// console.log(
-//   integOne.slice(-1) === integTwo.slice(-1)
-//     ? integOne + " and " + integTwo + " have the same ending"
-//     : (integTwo.slice(-1) === integThree.slice(-1) ?
-//     integTwo + " and " + integThree + " have the same ending" : (integOne.slice(-1) === integThree.slice(-1) ?
-//     integThree + " and " + integOne + " have the same ending" )));
