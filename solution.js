@@ -44,3 +44,24 @@ console.log(
 );
 
 console.log(100 - numOne < 100 - numTwo ? numOne : numTwo);
+
+let integOne = 3738;
+let integTwo = 4773;
+let integThree = 738;
+let integOneString = integOne.toString();
+let integTwoString = integTwo.toString();
+let integThreeString = integThree.toString();
+
+console.log(
+  integOneString.slice(-1) === integTwoString.slice(-1) &&
+    integTwoString.slice(-1) === integThreeString.slice(-1)
+    ? "same"
+    : "not the same"
+);
+
+// console.log(
+//   integOne.slice(-1) === integTwo.slice(-1)
+//     ? integOne + " and " + integTwo + " have the same ending"
+//     : (integTwo.slice(-1) === integThree.slice(-1) ?
+//     integTwo + " and " + integThree + " have the same ending" : (integOne.slice(-1) === integThree.slice(-1) ?
+//     integThree + " and " + integOne + " have the same ending" )));
