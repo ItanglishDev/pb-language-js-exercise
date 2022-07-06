@@ -18,3 +18,7 @@ console.log(
 console.log(
   (numOne > 0 && numTwo < 0) || (numOne < 0 && numTwo > 0) ? "Yes" : "No"
 );
+
+let stringNew = "today was a good day!";
+console.log(stringNew.substring(0, 2) != "Py" ? stringNew : "Py" + stringNew);
+// console.log(stringNew.substring(0, 2) == "Py");
