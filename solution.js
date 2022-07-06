@@ -1,5 +1,6 @@
 let numOne = 35;
 let numTwo = 67;
+let numThree = 57;
 
 console.log(
   (numOne >= 40 && numOne <= 60) || (numTwo >= 70 && numTwo <= 100)
@@ -27,3 +28,17 @@ let strToCut = "today";
 console.log("exercise 6");
 console.log(strToCut.substring(2) + strToCut + strToCut.substring(2));
 console.log(strToCut.slice(2) + strToCut + strToCut.slice(2));
+
+/**
+let numOne = 35;
+let numTwo = 67;
+let numThree = 57;
+ */
+
+console.log(
+  numOne > numTwo && numOne > numThree
+    ? numOne
+    : numTwo > numThree
+    ? numTwo
+    : NumThree
+);
