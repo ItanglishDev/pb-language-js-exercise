@@ -40,5 +40,7 @@ console.log(
     ? numOne
     : numTwo > numThree
     ? numTwo
-    : NumThree
+    : numThree
 );
+
+console.log(100 - numOne < 100 - numTwo ? numOne : numTwo);
