@@ -14,3 +14,7 @@ console.log(specificNum < 19 ? 19 - specificNum : (specificNum - 19) * 3);
 console.log(
   numOne === 50 || numTwo === 50 || numOne + numTwo === 50 ? true : false
 );
+
+console.log(
+  (numOne > 0 && numTwo < 0) || (numOne < 0 && numTwo > 0) ? "Yes" : "No"
+);
