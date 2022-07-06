@@ -22,3 +22,8 @@ console.log(
 let stringNew = "today was a good day!";
 console.log(stringNew.substring(0, 2) != "Py" ? stringNew : "Py" + stringNew);
 // console.log(stringNew.substring(0, 2) == "Py");
+
+let strToCut = "today";
+console.log("exercise 6");
+console.log(strToCut.substring(2) + strToCut + strToCut.substring(2));
+console.log(strToCut.slice(2) + strToCut + strToCut.slice(2));
